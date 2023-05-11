@@ -45,7 +45,7 @@ Pronto! Agora você pode usar o XAMPP e o banco de dados HeidiSQL para desenvolv
 ## ⚙️ Configurando os arquivos 
 Após baixar os arquivos e os aplicativos, siga estes passos:
 
-1- No painel de controle do Xampp, clique em MySQL Admin.
+- No painel de controle do Xampp, clique em MySQL Admin.
 ![image](https://github.com/Wellingtonlanu/ProjetoEstagio/assets/113382133/a2078674-a338-4d3b-9b08-0549c746b751)
 
 - Depois de acessar o link, clique em IMPORTAR e, em seguida, importe o arquivo com o nome BD_projeto_mutua.
@@ -54,13 +54,13 @@ Após baixar os arquivos e os aplicativos, siga estes passos:
 - Feito isso, ao abrir o banco de dados, todos os dados já estarão presentes.
 
 
-2- Após baixar todos os arquivos presentes neste repositório, mova-os para dentro da pasta HTDOCS presente no XAMPP -> xampp/htdocs
+- Após baixar todos os arquivos presentes neste repositório, mova-os para dentro da pasta HTDOCS presente no XAMPP -> xampp/htdocs
 
 
-3- Para abrir os arquivos que estão neste repositório (editar o código) acesse o Visual Studio CODE, clique em Open New Folder e selecione a pasta localizada em xampp/htdocs/projeto_mutua
+- Para abrir os arquivos que estão neste repositório (editar o código) acesse o Visual Studio CODE, clique em Open New Folder e selecione a pasta localizada em xampp/htdocs/projeto_mutua
 
 
-4- Quando quiser vizualizar o site, basta acessar o painel de controle do XAMPP e clicar em START do Apache e MySQL, feito isso o projeto já vai estar operando.
+- Quando quiser vizualizar o site, basta acessar o painel de controle do XAMPP e clicar em START do Apache e MySQL, feito isso o projeto já vai estar operando.
 
 
 
