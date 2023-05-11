@@ -1,65 +1,47 @@
-# [Start Bootstrap - SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/)
+# Projeto Estágio 
+O projeto em questão tem como objetivo criar um sistema para gerenciar o cadastro, listagem e edição de usuários, bem como o controle das parcelas correspondentes a esses usuários. O sistema será capaz de listar todas as parcelas de cada usuário, incluindo as parcelas que já foram pagas e as que estão em atraso, permitindo a edição dessas informações quando necessário. 
 
-[SB Admin 2](https://startbootstrap.com/theme/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+## 🚀 Começando
+Baixe todos os arquivos presentes neste repositório para a sua máquina e siga os passos de instalação a seguir.
 
-For the legacy Bootstrap 3 version of this theme, you can view the [last stable release](https://github.com/StartBootstrap/startbootstrap-sb-admin-2/releases/tag/v3.3.7%2B1) of SB Admin 2 for Bootstrap 3.
+### 🔧 Instalação
+Antes de começarmos, é necessário ter o aplicativo Visual Studio Code instalado em sua máquina para que possa realizar futuras modificações. Caso ainda não o tenha, faça o download e a instalação do Visual Studio Code em seu computador. Em seguida, baixe os seguintes aplicativos (siga as instruções para baixá-los):
 
-## Preview
+## Instalando o XAMPP
 
-[![SB Admin 2 Preview](https://assets.startbootstrap.com/img/screenshots/themes/sb-admin-2.png)](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)
+Acesse o site oficial do XAMPP (https://www.apachefriends.org/pt_br/index.html) e faça o download da versão compatível com o seu sistema operacional.
 
-**[Launch Live Preview](https://startbootstrap.github.io/startbootstrap-sb-admin-2/)**
+Após o download, abra o arquivo de instalação e siga as instruções do instalador para instalar o XAMPP no seu computador.
 
-## Status
+Durante o processo de instalação, selecione os módulos do XAMPP que deseja instalar, como Apache, MySQL e PHP.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-sb-admin-2/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-sb-admin-2.svg)](https://www.npmjs.com/package/startbootstrap-sb-admin-2)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-sb-admin-2.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-sb-admin-2)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-sb-admin-2?type=dev)
+Ao finalizar a instalação, inicie o XAMPP e verifique se os módulos selecionados estão funcionando corretamente.
 
-## Download and Installation
+## Instalando o banco de dados HeidiSQL
+Acesse o site oficial do HeidiSQL (https://www.heidisql.com/) e faça o download da versão compatível com o seu sistema operacional.
 
-To begin using this template, choose one of the following options to get started:
+Após o download, abra o arquivo de instalação e siga as instruções do instalador para instalar o HeidiSQL no seu computador.
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/sb-admin-2/)
-* Install via npm: `npm i startbootstrap-sb-admin-2`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-sb-admin-2.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-sb-admin-2)
+Ao finalizar a instalação, abra o HeidiSQL e clique em "Nova" para criar uma nova conexão.
 
-## Usage
+Preencha as informações da conexão, como nome do host (geralmente "localhost"), nome de usuário e senha. Certifique-se de selecionar o banco de dados que deseja usar para o seu projeto.
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+Clique em "Testar" para verificar se a conexão foi estabelecida com sucesso. Se tudo estiver funcionando corretamente, salve a conexão.
 
-### Gulp Tasks
+Usando o arquivo com o XAMPP e o banco de dados HeidiSQL
+Coloque o arquivo que deseja usar na pasta "htdocs" do XAMPP. Esta pasta geralmente está localizada em "C:\xampp\htdocs".
 
-* `gulp` the default task that builds everything
-* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-* `gulp js` minifies the themes JS file
-* `gulp vendor` copies dependencies from node_modules to the vendor directory
+Abra o seu navegador e digite "localhost/nome-do-arquivo.php" na barra de endereço. O nome do arquivo deve ser substituído pelo nome do arquivo que você colocou na pasta "htdocs".
 
-You must have npm installed globally in order to use this build environment. This theme was built using node v11.6.0 and the Gulp CLI v2.0.1. If Gulp is not running properly after running `npm install`, you may need to update node and/or the Gulp CLI locally.
+Se o arquivo estiver funcionando corretamente, você deverá ver o conteúdo dele no seu navegador.
 
-## Bugs and Issues
+Se o arquivo precisar acessar o banco de dados, certifique-se de que a conexão com o banco de dados esteja estabelecida corretamente no arquivo. Você pode usar o HeidiSQL para gerenciar o banco de dados e fazer consultas.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-sb-admin-2/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/sb-admin-2/).
+Pronto! Agora você pode usar o XAMPP e o banco de dados HeidiSQL para desenvolver seus projetos web.
 
-## About
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+## 🛠️ Configurando os arquivos 
+Após baixar os arquivos e os aplicativos, siga os seguintes passos:
+1- No painel de controle do Xampp clique em MySQL Admin  
+![image](https://github.com/Wellingtonlanu/ProjetoEstagio/assets/113382133/a2078674-a338-4d3b-9b08-0549c746b751)
 
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) license.
