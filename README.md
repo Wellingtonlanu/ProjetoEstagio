@@ -6,11 +6,11 @@ O projeto em questão tem como objetivo criar um sistema para gerenciar o cadast
 Baixe todos os arquivos presentes neste repositório para a sua máquina e siga os passos de instalação a seguir.
 
 
-### 🔧 Instalação
+## 🔧 Instalação
 Antes de começarmos, é necessário ter o aplicativo Visual Studio Code instalado em sua máquina para que possa realizar futuras modificações. Caso ainda não o tenha, faça o download e a instalação do Visual Studio Code em seu computador. Em seguida, baixe os seguintes aplicativos (siga as instruções para baixá-los):
 
 
-## Instalando o XAMPP
+### Instalando o XAMPP
 Acesse o site oficial do XAMPP (https://www.apachefriends.org/pt_br/index.html) e faça o download da versão compatível com o seu sistema operacional.
 
 Após o download, abra o arquivo de instalação e siga as instruções do instalador para instalar o XAMPP no seu computador.
@@ -19,7 +19,7 @@ Durante o processo de instalação, selecione os módulos do XAMPP que deseja in
 
 Ao finalizar a instalação, inicie o XAMPP e verifique se os módulos selecionados estão funcionando corretamente.
 
-## Instalando o banco de dados HeidiSQL
+### Instalando o banco de dados HeidiSQL
 Acesse o site oficial do HeidiSQL (https://www.heidisql.com/) e faça o download da versão compatível com o seu sistema operacional.
 
 Após o download, abra o arquivo de instalação e siga as instruções do instalador para instalar o HeidiSQL no seu computador.
