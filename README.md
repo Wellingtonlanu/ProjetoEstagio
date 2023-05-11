@@ -44,4 +44,7 @@ Pronto! Agora você pode usar o XAMPP e o banco de dados HeidiSQL para desenvolv
 Após baixar os arquivos e os aplicativos, siga os seguintes passos:
 1- No painel de controle do Xampp clique em MySQL Admin  
 ![image](https://github.com/Wellingtonlanu/ProjetoEstagio/assets/113382133/a2078674-a338-4d3b-9b08-0549c746b751)
+  - Ao acesasr o link, clique em IMPORTAR, após isso importe o arquivo com o nome de BD_projeto_mutua
+![image](https://github.com/Wellingtonlanu/ProjetoEstagio/assets/113382133/f0f4da2e-49be-4852-950e-7e6f351ea2dc)
+  - Feito isso ao abrir o banco de dados, todos os dados já estarão lá presentes 
 
